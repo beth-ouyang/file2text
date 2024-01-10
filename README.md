@@ -1,6 +1,6 @@
 # file2text
 
-Python package to read pdf / word file and extract text from it.
+Python package to read WORD (docx) file and extract text from it.
 
 ## Installation
 
@@ -10,11 +10,15 @@ $ pip install file2text
 
 ## Usage
 
-- TODO
+- Input the path of WORD file (.docx), and the output will be the text in the file.
+```Python
+import file2text
+text = file2text.convert_word("FILENAME.docx")
+```
 
 ## Contributing
 
-Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
 
 ## License
 
