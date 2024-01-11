@@ -4,9 +4,6 @@ import docx
 def convert_word(path):
     """Extract text from Word file
 
-    Words are made lowercase and punctuation is removed 
-    before counting.
-
     Parameters
     ----------
     path : str
